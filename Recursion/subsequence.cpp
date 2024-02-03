@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Take or not Take Approach.
+
 void printer(int ind , vector<int> &ds , int arr[] , int n){
     if(ind == n){
         for(auto it : ds) cout << it << " ";
